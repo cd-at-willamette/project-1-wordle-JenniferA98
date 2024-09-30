@@ -80,7 +80,7 @@ def wordle():
     
     
     
-    secret = "glass" #random.choice(five_letter_list()) #randomly selects a word from the list
+    secret = random.choice(five_letter_list()) #randomly selects a word from the list
     gw = WordleGWindow()
     gw.add_enter_listener(enter_action)
 
